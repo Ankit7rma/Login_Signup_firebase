@@ -8,43 +8,4 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #2196f3;
-}
-.container{
-  padding: 20px 30px;
-  background: #fff;
-}
-.container .form {
-  padding: 30px 30px;
-}
-.container .form h2{
-text-align: center;
-font-size: 18px;
-color: #232323;
-}
-.container .form .box{
-  margin-top: 15px;
-}
-input{
-  border:none;
-  outline: none;
-  border-bottom: 1px solid #8a8a8a;
-  padding: 20px 0px;
-
-}
-.container .form .p{
-  margin-top:10px ;
-  color: black;
-  font-size: 14px;
-}
-.container .form button{
-  padding: 10px 30px;
-  color: #fff;
-  border: none;
-  outline: none;
-  background: #2196f3;
-  margin-top: 15px;
-  cursor: pointer;
-  border-radius: 4px;
-
 }

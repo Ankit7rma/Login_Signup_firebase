@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import {getDocs,collection,where,query} from "firebase/firestore";
 import { db } from '../utils/firebase';
+import "../app.css"
 
 const Login = () => {
   const [email,setEmail] = useState('')

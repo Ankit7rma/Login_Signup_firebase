@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { db } from "../utils/firebase.js";
 import {getDocs,addDoc,collection,where,query} from "firebase/firestore";
+import "../app.css"
 
 const Signup = () => {
     const [name ,setName] = useState("")
